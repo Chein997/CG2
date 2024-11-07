@@ -12,5 +12,5 @@
 
 <AnchorPane fx:id="anchorPane" xmlns:fx="http://javafx.com/fxml"
             fx:controller="com.chein.task2.TaskController">
-<Canvas fx:id="canvas" width="1400" height="1200" AnchorPane.topAnchor="50.0"/>
+    <Canvas fx:id="canvas" width="1400" height="1500" AnchorPane.topAnchor="100.0"/>
 </AnchorPane>
