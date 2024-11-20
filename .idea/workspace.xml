@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chein/task2/DrawArc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chein/task2/DrawArc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chein/task2/TaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chein/task2/TaskApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chein/task2/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chein/task2/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/chein/task2/task-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/chein/task2/task-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,16 +82,5 @@
       <updated>1728577558458</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/chein/task2/DrawArc.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
