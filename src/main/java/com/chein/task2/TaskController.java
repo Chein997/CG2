@@ -18,7 +18,7 @@ public class TaskController {
         anchorPane.prefWidthProperty().addListener((ov, oldValue, newValue) -> canvas.setWidth(newValue.doubleValue()));
         anchorPane.prefHeightProperty().addListener((ov, oldValue, newValue) -> canvas.setHeight(newValue.doubleValue()));
 
-        DrawArc.drawArc(canvas.getGraphicsContext2D(), 400, 300, 300, Color.RED, Color.BLUE, -20, 360);
+        DrawArc.drawArc(canvas.getGraphicsContext2D(), 400, 300, 300, Color.RED, Color.BLUE, 7600, 7750);
     }
 
 }

@@ -8,12 +8,17 @@ import javafx.scene.paint.Color;
 public class DrawArc {
     public static void drawArc(final GraphicsContext graphicsContext, final int xc, final int yc,
                                final int radius, final Color startColor, final Color endColor, double startAng, double endAng) {
-        startAng = Math.toRadians(startAng);
-        endAng = Math.toRadians(endAng);
+        startAng = Math.toRadians(startAng) % Math.toRadians(360);
+        endAng = Math.toRadians(endAng) % Math.toRadians(360);
 
-        if (startAng<0){
-            startAng = Math.toRadians(360) + startAng;
-            endAng = Math.toRadians(360) + endAng;
+        if (startAng < 0) {
+            startAng += Math.toRadians(360);
+        }
+        if (endAng < 0) {
+            endAng += Math.toRadians(360);
+        }
+        if (Math.round(startAng) == Math.round(endAng)){
+            endAng += Math.toRadians(360);
         }
 
         int x = 0;
